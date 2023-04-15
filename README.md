@@ -1,10 +1,10 @@
 # Challenge ONE - text-decoder (v.0.0.1)
 
-<center>
+<div align="center">
 
 ![cms_files_10224_1671211139Prancheta_3](https://user-images.githubusercontent.com/3737837/232214037-c0ded352-9ba0-4dd3-9842-f94663568804.png)
 
-</center>
+</div>
 
 ## Sobre o projeto
 
