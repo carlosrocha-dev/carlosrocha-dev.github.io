@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Text Decoder - v.0.1.0</title>
+	<meta author="Carlos Rocha">
+	<meta description="Text Decoder é uma ferramenta para criptografar e descriptografar textos.">
+	<meta keywords="criptografia, criptografar, descriptografar, textos, text decoder, text decoder v.0.1.0">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta name="google" content="notranslate">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/text-decoder.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<script src="js/content.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+				<div class="column">
+					<menu>
+						<h1 class="logo-container">
+							<a href="./">
+								<img src="/images/logo.png" alt="">
+							</a>
+						</h1>
+						<div class="language-list">
+							<ul>
+								<li>
+									<input type="button" class="round-btn" value="pt" alt="Português">
+								</li>
+								<li>
+									<input type="button" class="round-btn" value="es" alt="Espanhol">
+								</li>
+								<li>
+									<input type="button" class="round-btn" value="en" alt="Inglês">
+								</li>
+							</ul>
+						</div>
+					</menu>
+				</div>
+				<div class="column">
+					<textarea id="inputContent" class="content" rows="6" cols="30"></textarea>
+					<div class="aligned-left">
+						<span class="icon-exclamation">!</span>
+						<legend class="info"></legend>
+					</div>
+					<div class="button-container">
+						<input type="button" id="encrypt" class="coders-btn" value="Criptografar" onclick="encryptText()" />
+						<input type="button" id="decrypt" class="coders-btn" value="Descriptografar" onclick="decryptText()" />
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="copy-area">
+						<textarea id="output" class="output hidden" rows="6" cols="30" readonly></textarea>
+						<div class="image-container">
+							<div class="message">
+								<p></p>
+								<span></span>
+							</div>
+						</div>
+						<input type="button" id="copy" class="" value="Copiar" onclick="copyText()" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<p>Desenvolvido com ❤️ por <a href="https://carlosrocha.com.br" target="_blank">Carlos Rocha</a></p><br>
+		<p>&copy; 2023 Todos os direitos reservados.</p>
+	</div>
+	<script src="js/encode.js"></script>
+	<script src="js/copyText.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+	"pt-br":{
+		"cryptBtn": "Criptografar",
+		"decryptBtn": "Descriptografar",
+		"copyBtn": "Copiar",
+		"inputContent": "Digite seu texto aqui.",
+		"info": "Apenas letras minusculas e sem acento.",
+		"message": "Nenhuma mensagem foi encontrada",
+		"hint": "Digite um texto que deseja criptografar ou descriptografar",
+		"error": "Apenas letras minusculas e sem acento.",
+		"emptyMessage": "Nenhuma mensagem para exibir."
+	},
+	"es":
+	{
+		"cryptBtn": "Cifrar",
+		"decryptBtn": "Descifrar",
+		"copyBtn": "Copiar",
+		"inputContent": "Escribe tu texto aquí.",
+		"info": "Solo letras minúsculas y sin acentos.",
+		"message": "No se encontró ningún mensaje",
+		"hint": "Escribe un texto que desees cifrar o descifrar",
+		"error": "Solo letras minúsculas y sin acentos.",
+		"emptyMessage": "No hay ningún mensaje para mostrar."
+	},
+	"en":
+	{
+		"cryptBtn": "Crypt",
+		"decryptBtn": "Decrypt",
+		"copyBtn": "Copy",
+		"inputContent": "Type your text here.",
+		"info": "Only lowercase letters and without accents.",
+		"message": "No message was found",
+		"hint": "Type a text that you want to crypt or decrypt",
+		"error": "Only lowercase letters and without accents.",
+		"emptyMessage": "No message to display."
+	}
+}
