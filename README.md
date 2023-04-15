@@ -1,5 +1,13 @@
 # Challenge ONE - text-decoder (v.0.0.1)
 
+<div align="center">
+
+![cms_files_10224_1671211139Prancheta_3](https://user-images.githubusercontent.com/3737837/232214037-c0ded352-9ba0-4dd3-9842-f94663568804.png)
+
+[Link do projeto](https://carlosrocha-dev.github.io/)
+
+</div>
+
 ## Sobre o projeto
 
 O text-decoder é uma aplicação que criptografa textos feita para a prática de lógica de programação.
